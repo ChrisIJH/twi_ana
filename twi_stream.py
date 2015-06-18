@@ -15,8 +15,8 @@ class StdOutListener(StreamListener):
         
 
 l = StdOutListener()
-auth = OAuthHandler(consumer_key, consumer_secret)
-auth.set_access_token(access_token, access_token_secret)
+auth = OAuthHandler(authe.consumer_key, authe.consumer_secret)
+auth.set_access_token(authe.access_token, authe.access_token_secret)
 stream = Stream(auth, l)
 
 stream.filter(track=['studypool', 'eduboard','chegg', 'tutoring'])
