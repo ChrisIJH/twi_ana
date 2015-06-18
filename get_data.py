@@ -1,6 +1,6 @@
 import json
 import pandas as pd
-import matpolotlib.pylot as plt
+import matplotlib.pylot as plt
 
 
 data_path = 'result.txt'
