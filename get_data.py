@@ -15,7 +15,7 @@ for line in filect:
         continue
     
     
-print ("Length of data: ", len(data))
+print "Length of data: ", len(data)
 
 tweets = pd.DataFrame()
 
