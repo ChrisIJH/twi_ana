@@ -19,4 +19,4 @@ auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 stream = Stream(auth, l)
 
-stream.filter(track=['studypool', 'eduboard', 'tutoring'])
+stream.filter(track=['studypool', 'eduboard','chegg', 'tutoring'])
